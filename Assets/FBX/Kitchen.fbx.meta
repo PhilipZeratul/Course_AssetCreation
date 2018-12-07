@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3ee5694d33acf354eb2b9f62cd656775
+guid: ed216d4266c646644827cfe2daed3305
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -74,10 +74,45 @@ ModelImporter:
     4300018: WindowGlass6
     4300020: WindowGlass7
     4300022: Interior
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling_Paint
+    second: {fileID: 2100000, guid: da0e8639595bed3498bed8f23e2f4b46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: b080fe7b12aecc84f9005e4294a8be69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lit_Bulb
+    second: {fileID: 2100000, guid: 4ac86826cff262a478d151e2b753066b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Paint
+    second: {fileID: 2100000, guid: 520c6785c6057bd41b9a17754400300b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White_Paint
+    second: {fileID: 2100000, guid: d0d3f9b1e47143e468923785cb7d6214, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White_Plastic
+    second: {fileID: 2100000, guid: 7f56685c5ef90fe4f91df6897b2df547, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Tile
+    second: {fileID: 2100000, guid: f8705c6b31744d94694034ada9f7efb2, type: 2}
   materials:
     importMaterials: 1
-    materialName: 0
+    materialName: 1
     materialSearch: 1
     materialLocation: 1
   animations:
@@ -105,7 +140,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 10
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -132,7 +167,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2

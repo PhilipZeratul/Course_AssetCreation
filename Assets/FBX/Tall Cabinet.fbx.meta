@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0fa6e23b416a10148aeb181d03954e59
+guid: 868df093428661744bbebcca9d49d22d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -52,10 +52,50 @@ ModelImporter:
     4300012: DoorArched08
     4300014: CabinetBaseEndCap04
     4300016: _CabinetBaseCapTall
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: diffuse_cube
+    second: {fileID: 8900000, guid: e02adb77813ce874f8993f35fd2eb9ac, type: 3}
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: specular_cube
+    second: {fileID: 8900000, guid: 9b616ad0ed0c8c642aaa099502e076b1, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bronze_Rubbed
+    second: {fileID: 2100000, guid: 12f4496706cdcc044ad117c2d5cf52b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walnut_Wood
+    second: {fileID: 2100000, guid: 30033c28837192549ab88487f3643af4, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WoodCherryNR
+    second: {fileID: 2800000, guid: e6169c9419639224a98f0c642870f2b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WoodWalnutAL
+    second: {fileID: 2800000, guid: 52a1cb12f63cebc46a9207e0f88343a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WoodWalnutME
+    second: {fileID: 2800000, guid: 89d9875ca77f55b429cfd9118eb46758, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WoodWalnutRO
+    second: {fileID: 2800000, guid: 863a65f20ee5fbd41a41f364ed115a9c, type: 3}
   materials:
     importMaterials: 1
-    materialName: 0
+    materialName: 1
     materialSearch: 1
     materialLocation: 1
   animations:
@@ -83,7 +123,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 10
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -110,7 +150,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
