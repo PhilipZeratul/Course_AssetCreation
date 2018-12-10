@@ -230,7 +230,37 @@ ModelImporter:
     4300000: Ellen_Body
     9500000: //RootNode
     13700000: Ellen_Body
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: a8bccb206a581eb4cb24a183c5142e86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ellen_Body_Mat
+    second: {fileID: 2100000, guid: 06ef1db8c47496a4f9639e8042b247c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ellen_Eyes_Mat
+    second: {fileID: 2100000, guid: 1f0f4b503edb90b448e2a90ed13b66a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ellen_Hair_Mat
+    second: {fileID: 2100000, guid: 2fdb2e900dd304d4fa30f748b9cc130a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ellen_Head_Mat
+    second: {fileID: 2100000, guid: e9916abf0d4c1904ba4746b1fb939b6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ellen_Tear_Mat
+    second: {fileID: 2100000, guid: 8b8420c07cfbfd743985f4d1b0a6fdb1, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -266,8 +296,8 @@ ModelImporter:
     addColliders: 0
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -302,12 +332,11 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
