@@ -52,6 +52,15 @@ ModelImporter:
     4300012: DoorArched08
     4300014: CabinetBaseEndCap04
     4300016: _CabinetBaseCapTall
+    6400000: _CabinetBaseCapTall
+    6400002: CabinetBase
+    6400004: CabinetBaseEndCap04
+    6400006: DoorArched01
+    6400008: DoorArched02
+    6400010: DoorArched08
+    6400012: RusticCollectionKnob01
+    6400014: RusticCollectionKnob04
+    6400016: RusticCollectionKnob07
   externalObjects:
   - first:
       type: UnityEngine:Cubemap
@@ -125,7 +134,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 10
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1

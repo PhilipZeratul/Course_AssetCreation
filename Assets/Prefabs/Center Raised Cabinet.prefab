@@ -119,6 +119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4283841595484248}
+  - component: {fileID: 114546326417495326}
   m_Layer: 0
   m_Name: Center Raised Cabinet
   m_TagString: Kitchen
@@ -160,8 +161,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1640669155075056}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -36.322, y: 13.7160015, z: 3.226297}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4373909555126686}
@@ -462,3 +463,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1039630436034356}
   m_Mesh: {fileID: 4300004, guid: e2f5ae9ac75984445972c0797368f413, type: 3}
+--- !u!114 &114546326417495326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1640669155075056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db2ab2485cbdc842973adcac26a9d89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  granite: {fileID: 0}
+  wood: []
+  hardware: []
+  hardwareMeshes: []
+  objectName: 
+  uiLocator: {fileID: 0}

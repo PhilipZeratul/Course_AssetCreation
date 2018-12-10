@@ -140,6 +140,32 @@ ModelImporter:
     4300046: RusticCollectionPull012
     4300048: RusticCollectionPull011
     4300050: CabinetBaseEndCap08
+    6400000: CabinetBase017
+    6400002: CabinetBase08
+    6400004: CabinetBase09
+    6400006: CabinetBaseEndCap08
+    6400008: CooktopGas
+    6400010: CounterIsland
+    6400012: DoorArched010
+    6400014: DoorArched011
+    6400016: DoorArched013
+    6400018: DoorArched09
+    6400020: DoorRaised08
+    6400022: DrawerRaised012
+    6400024: DrawerRaised018
+    6400026: DrawerRaised019
+    6400028: DrawerRaised05
+    6400030: DrawerRaised06
+    6400032: RusticCollectionKnob011
+    6400034: RusticCollectionKnob012
+    6400036: RusticCollectionKnob014
+    6400038: RusticCollectionKnob015
+    6400040: RusticCollectionKnob06
+    6400042: RusticCollectionPull010
+    6400044: RusticCollectionPull011
+    6400046: RusticCollectionPull012
+    6400048: RusticCollectionPull013
+    6400050: RusticCollectionPull014
     9500000: //RootNode
   externalObjects:
   - first:
@@ -234,7 +260,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 10
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1

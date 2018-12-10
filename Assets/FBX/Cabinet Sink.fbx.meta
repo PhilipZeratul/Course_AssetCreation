@@ -51,6 +51,14 @@ ModelImporter:
     4300010: SinkFarmhouse1
     4300012: CounterFarmhouse
     4300014: Kohler_Simplice04
+    6400000: CabinetBase01
+    6400002: CounterFarmhouse
+    6400004: DoorArched01
+    6400006: DoorArched02
+    6400008: Kohler_Simplice04
+    6400010: RusticCollectionKnob01
+    6400012: RusticCollectionKnob04
+    6400014: SinkFarmhouse1
     9500000: //RootNode
   externalObjects:
   - first:
@@ -150,7 +158,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 10
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1

@@ -74,6 +74,18 @@ ModelImporter:
     4300018: WindowGlass6
     4300020: WindowGlass7
     4300022: Interior
+    6400000: BucketLights
+    6400002: Ceiling
+    6400004: ExteriorWall
+    6400006: Interior
+    6400008: Windowframe
+    6400010: WindowGlass2
+    6400012: WindowGlass3
+    6400014: WindowGlass4
+    6400016: WindowGlass5
+    6400018: WindowGlass6
+    6400020: WindowGlass7
+    6400022: Windows
     2186277476908879412: ImportLogs
   externalObjects:
   - first:

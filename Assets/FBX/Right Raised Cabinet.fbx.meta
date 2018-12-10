@@ -32,6 +32,11 @@ ModelImporter:
     4300004: DoorArched02
     4300006: RusticCollectionKnob08
     4300008: RusticCollectionKnob09
+    6400000: CabinetBase019
+    6400002: DoorArched01
+    6400004: DoorArched02
+    6400006: RusticCollectionKnob08
+    6400008: RusticCollectionKnob09
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -75,7 +80,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 10
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
